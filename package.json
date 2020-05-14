@@ -1,0 +1,31 @@
+{
+  "name": "software_quality",
+  "version": "1.0.0",
+  "description": "This directory is organised as follows:",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node web-server/app.js",
+    "test": "nyc mocha",
+    "coverage": "nyc --reporter html npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-INF-PAI-2019-2020/2019-2020-pai-sonarcloud-io-software_quality.git"
+  },
+  "keywords": [],
+  "author": "Eduardo Estévez Rodríguez, David Hernández Suárez",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-istanbul": "^6.0.0",
+    "nyc": "^15.0.1"
+  }
+}
