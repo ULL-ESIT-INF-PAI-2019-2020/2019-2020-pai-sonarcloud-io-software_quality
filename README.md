@@ -1,15 +1,17 @@
 # PAI Lab assignment (lab, class presentation with slides) structure
 
+# Software Quality - SonarCloud 
+
+# Authors:
+
+**Eduardo Estévez Rodríguez**   Mail: alu0101014319@ull.edu.es
+
+**David Hernández Suárez**      Mail: alu0101048239@ull.edu.es
+
 This directory is organised as follows:
+  .
+  ├── slides      # Google Presentation of the project.
+  ├── src        # Source code, including JS, CSS, HTML.
 
-      .
-      ├── coverage   # Code coverage reports files
-      ├── docs       # All kind of project documentation, including JSDoc files
-      ├── image      # Image resources 
-      ├── tests      # Source code for tests
-      ├── src        # Source code, including JS, CSS, HTML
+  
 
-For each assignment there should be a markdown file with the assignment description.
-Find that file and follow the instructions on it.
-
-**Before** the evaluation session of the assignment, **do not forget** to upload the (git) link to your repository to the Moodle classroom.
