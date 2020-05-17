@@ -12,7 +12,6 @@ This directory is organised as follows:
   
   .
   ├── slides      # Google Presentation of the project.
-  
   ├── src        # Source code, including JS, CSS, HTML.
 
   
