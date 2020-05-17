@@ -9,8 +9,10 @@
 **David Hernández Suárez**      Mail: alu0101048239@ull.edu.es
 
 This directory is organised as follows:
+  
   .
   ├── slides      # Google Presentation of the project.
+  
   ├── src        # Source code, including JS, CSS, HTML.
 
   
