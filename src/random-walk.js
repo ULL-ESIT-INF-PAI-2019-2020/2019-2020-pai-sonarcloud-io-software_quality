@@ -45,13 +45,13 @@ function randomWalk() {
   const CONTEXT = CANVAS.getContext('2d');
   const SIZES = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 5];
   let density;
-  do {
+  /*do {
     density = prompt("Introduzca la densidad de la cuadrícula, entre 0 y 10", 0);
     if (density < 0 || density > 10) {
       alert("Error. Valor fuera del rango");
     }
-  } while (density > 10 || density < 0);
-  //density = prompt("Introduzca la densidad de la cuadrícula, entre 0 y 10", 0);
+  } while (density > 10 || density < 0);*/
+  density = prompt("Introduzca la densidad de la cuadrícula, entre 0 y 10", 0);
   density = SIZES[density] - 1;
   let grid = new Grid(CANVAS.width, CANVAS.height, density);
   grid.createGrid(CONTEXT, CANVAS); 
